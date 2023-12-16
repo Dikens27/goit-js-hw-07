@@ -33,7 +33,7 @@ const elements = document.querySelector('.gallery');
 const renderNewImage = () => {
   const renderedImage = images.reduce((html, image) => html + `
   <li type="none">
-    <img width="300px" src="${image.url}" alt="${image.alt}"/>
+    <img width="360px" height="300px" src="${image.url}" alt="${image.alt}"/>
   </li>
   `, "");
 
